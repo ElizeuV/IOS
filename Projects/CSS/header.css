@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    font-family:sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.lista-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 10%;
+}
+
+.lista-header-item {
+    display: flex;
+    align-items: center;
+    white-space: nowrap; 
+    margin: 0 10%;
+}
+
+.header-titulo {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    display: flex;
+    /* color: white; */
+    justify-content: center;
+    text-align: center;
+    padding: 2% 5%;
+}
+
+.imagem-titulo {
+    width: 100px;
+    height: 100px;
+}
+
+
