@@ -1,10 +1,14 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 2% 5%;
-    font-family:sans-serif;
+    padding: 1% 20%;
+    font-family: sans-serif;
     background-color: black;
     color: white;
+    border-bottom: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size:medium;
 }
 
 .lista-header {
@@ -12,27 +16,20 @@
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0 10%;
 }
 
 .lista-header-item {
     display: flex;
     align-items: center;
-    white-space: nowrap; 
+    white-space: nowrap;
     margin: 0 10%;
+    color: white;
 }
 
 .header-titulo {
     display: flex;
     align-items: center;
-}
-
-p {
-    display: flex;
-    /* color: white; */
-    justify-content: center;
-    text-align: center;
-    padding: 2% 5%;
+    margin-right: 35%;
 }
 
 .imagem-titulo {
@@ -40,4 +37,7 @@ p {
     height: 100px;
 }
 
-
+.lista-header-item-link {
+    color:  white;
+    text-decoration: none !important;
+}
